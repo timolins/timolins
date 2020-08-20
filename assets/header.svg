@@ -1,51 +1,22 @@
 <svg width="1500" height="500" viewBox="0 0 1500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0)">
 <rect width="1500" height="500" fill="white"/>
-<path d="M1 499L751 33L1501 499" stroke="#E9E9E9" stroke-width="4"/>
-<path d="M-397 499L751 33L1899 499" stroke="#E9E9E9" stroke-width="4"/>
-<path d="M-1136 499L751 33L2638 499" stroke="#E9E9E9" stroke-width="4"/>
-<path d="M251 499L750.5 33L1250 499" stroke="#E9E9E9" stroke-width="4"/>
-<path d="M464 498L750.474 33L1036.95 498" stroke="#E9E9E9" stroke-width="4"/>
-<path d="M654 498L750 33L846 498" stroke="#E9E9E9" stroke-width="4"/>
+<path d="M1 498L751 33L1501 498" stroke="#E9E9E9" stroke-width="4" stroke-linecap="round"/>
+<path d="M-397 498L751 33L1899 498" stroke="#E9E9E9" stroke-width="4" stroke-linecap="round"/>
+<path d="M-1136 498L751 33L2638 498" stroke="#E9E9E9" stroke-width="4" stroke-linecap="round"/>
+<path d="M251 498L750.5 33L1250 498" stroke="#E9E9E9" stroke-width="4" stroke-linecap="round"/>
+<path d="M464 498L750.474 33L1036.95 498" stroke="#E9E9E9" stroke-width="4" stroke-linecap="round"/>
+<path d="M654 498L750 33L846 498" stroke="#E9E9E9" stroke-width="4" stroke-linecap="round"/>
 <path class="line-100" d="M-128 500C1267.6 500 1624.83 500 1629 500" stroke="#E9E9E9" stroke-width="4"/>
 <path class="line-100" d="M-128 400C1267.6 400 1624.83 400 1629 400" stroke="#E9E9E9" stroke-width="4"/>
 <path class="line-75" d="M-128 300C1267.6 300 1624.83 300 1629 300" stroke="#E9E9E9" stroke-width="4"/>
 <path class="line-75" d="M-128 225C1267.6 225 1624.83 225 1629 225" stroke="#E9E9E9" stroke-width="4"/>
 <path class="line-50" d="M-128 175C1267.6 175 1624.83 175 1629 175" stroke="#E9E9E9" stroke-width="4"/>
-
-<g  transform="translate(-25, 50) rotate(0)">
-<path class="triangle" d="M100.398 456.569C101.545 453.699 105.375 453.159 107.271 455.6L130.037 484.913C131.922 487.341 130.479 490.899 127.436 491.328L90.8947 496.479C87.8514 496.908 85.4814 493.887 86.622 491.033L100.398 456.569Z" fill="#E28B3A"/>
+<rect width="1501" height="500" fill="url(#paint0_linear)"/>
 </g>
-<g  transform="translate(-25, 50) rotate(0)">
-<circle class="ball" cx="330" cy="470" r="20" fill="#3F7387"/>
-</g>
-<g  transform="translate(-50, 0) rotate(3)">
-<rect class="box" x="1305.75" y="456" width="42" height="42" rx="8" transform="rotate(12.9235 1305.75 456)" fill="#69C06E"/>
-</g>
-
-
-<rect x="533" y="159" width="434" height="138" fill="url(#paint0_radial)"/>
-<rect width="1501" height="500" fill="url(#paint1_linear)"/>
-<g filter="url(#filter0_d)">
 <text fill="black" xml:space="preserve" style="white-space: pre" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="64" font-weight="bold" letter-spacing="0em"><tspan x="595.781" y="251.75">Timo Lins</tspan></text>
-</g>
-
-</g>
 <defs>
-<filter id="filter0_d" x="582.656" y="190.156" width="300.656" height="82.5625" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="8"/>
-<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-</filter>
-<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(750 228) rotate(90) scale(106 333.362)">
-<stop stop-color="white"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</radialGradient>
-<linearGradient id="paint1_linear" x1="751" y1="205.5" x2="750.5" y2="526.104" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear" x1="751" y1="205.5" x2="750.5" y2="526.104" gradientUnits="userSpaceOnUse">
 <stop stop-color="white"/>
 <stop offset="1" stop-color="white" stop-opacity="0"/>
 </linearGradient>
@@ -66,8 +37,6 @@
   from {transform: translateY(0)}
   to {transform: translateY(-50px)}
 }
-
-
 .line-100 {
   animation: move-100 4s infinite linear;
 }
@@ -76,25 +45,6 @@
 }
 .line-50 {
   animation: move-50 4s infinite linear;
-}
-
-@keyframes move-item {
-  0% {transform: translate(0, 0) scale(1)}
-  90% {opacity: 1;}
-  95% {opacity: 0;}
-  100% {transform: translate(500px, 0) scale(0.35); opacity: 0; }
-}
-
-.ball {
-  animation: move-item 15s 0s infinite cubic-bezier(0.61, 1, 0.88, 1);
-}
-
-.box {
-  animation: move-item 15s 5s infinite cubic-bezier(0.61, 1, 0.88, 1);
-}
-
-.triangle {
-  animation: move-item 15s 10s  infinite cubic-bezier(0.61, 1, 0.88, 1);
 }
 </style>
 </svg>
