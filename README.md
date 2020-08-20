@@ -1,1 +1,1 @@
-[![Social banner for Timo Lins](https://github.com/timolins/timolins/raw/master/assets/header.svg)](https://timo.sh)
+<a href="https://timo.sh"><img alt="Social banner for Timo Lins" src="https://github.com/timolins/timolins/raw/master/assets/header.svg" width="1500px" height="500px"/></a>
