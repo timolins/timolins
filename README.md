@@ -1,1 +1,1 @@
-<a href="https://timo.sh/?ref=github-header"><img alt="Social banner for Timo Lins" src="https://github.com/timolins/timolins/raw/master/assets/header.svg"/></a>
+<a href="https://twitter.com/intent/user?screen_name=timolins"><img alt="Follow @timolins on Twitter" src="https://github.com/timolins/timolins/raw/master/assets/header.svg"/></a>
