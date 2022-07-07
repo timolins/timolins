@@ -26,7 +26,7 @@
 <stop offset="1" stop-color="white" stop-opacity="0"/>
 </linearGradient>
 <radialGradient id="paint1_radial_14_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1350.5 512) rotate(90) scale(141 262.5)">
-<stop stop-color="#B5E1FF" stop-opacity="0.41"/>
+<stop stop-color="#B5E1FF" stop-opacity="0.35"/>
 <stop offset="1" stop-color="#1D9BF0" stop-opacity="0"/>
 </radialGradient>
 <clipPath id="clip0">
